@@ -4,21 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 <header class="header">
     <div class="header__wrapper">
-        <div class="header__logo">
-            <h1 class="header__logo-text">Brit<span class="header__logo-highlight">lex</span></h1>
-        </div>
-        <div class="header__menu-icon">
-            <a href="menu.html" class="header__menu-toggle">
-                <img src="img/menu.svg" alt="menu">
-            </a>
-        </div>
-
+        <h1 class="header__logo">Brit<span class="header__logo-highlight">lex</span></h1>
+        <a class="header__menu-icon">
+            <img src="img/menu.svg" alt="menu">
+        </a>
         <nav class="header__nav">
             <ul class="header__list">
                 <li class="header__item">
@@ -38,9 +33,7 @@
                 </li>
             </ul>
         </nav>
-        <button class="header__button">
-            <a href="#" class="header__button-link">Let's Talk</a>
-        </button>
+        <a href="#" class="header__button">Let's Talk</a>
     </div>
 </header>
 
@@ -58,11 +51,9 @@
                 each student, you will be able to make your<br/>
                 first sketch after the first lesson.
             </p>
-            <button class="intro__button">Get started</button>
+            <a href="#" class="intro__button">Get started</a>
         </div>
-        <div class="intro__image">
-            <img src="img/learning-languages.svg" alt="learning-languages">
-        </div>
+        <img src="img/learning-languages.svg" alt="learning-languages" class="intro__image">
     </section>
 </main>
 
