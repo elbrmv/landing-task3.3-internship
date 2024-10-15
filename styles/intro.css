@@ -6,7 +6,7 @@
     background-color: var(--background-primary-light-color);
 }
 
-.intro__wrapper {
+.intro__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
