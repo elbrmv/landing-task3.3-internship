@@ -46,17 +46,6 @@
     color: var(--background-primary-dark-color);
 }
 
-.button--transparent {
-    background-color: var(--background-primary-light-color);
-    color: var(--background-primary-dark-color);
-    border: 2px solid var(--primary-dark-color);
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 36px;
-    width: 220px;
-    height: 70px;
-}
-
 .header__menu-icon {
     display: none;
     cursor: pointer;

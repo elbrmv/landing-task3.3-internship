@@ -25,6 +25,29 @@ body {
     cursor: pointer;
 }
 
+.button--transparent {
+    background-color: var(--background-primary-light-color);
+    color: var(--background-primary-dark-color);
+    border: 2px solid var(--primary-dark-color);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    width: 220px;
+    height: 70px;
+}
+
+.button--color-gray {
+    background-color: var(--background-primary-dark-color);
+    color: var(--text-primary-light-color);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+    width: 438px;
+    height: 118px;
+    border: none;
+    border-radius: 15px;
+}
+
 .text {
     font-weight: 400;
     white-space: normal;

@@ -51,18 +51,6 @@
     line-height: 36px;
 }
 
-.button--color-gray {
-    background-color: var(--background-primary-dark-color);
-    color: var(--text-primary-light-color);
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 54px;
-    width: 438px;
-    height: 118px;
-    border: none;
-    border-radius: 15px;
-}
-
 .intro__image-container {
     max-width: 50%;
     display: flex;
